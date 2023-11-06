@@ -1,0 +1,18 @@
+.navbar{
+    background-color: white;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    font-size: large;
+    font-weight: 700;
+}
+.delete{
+    color: red;
+    font-weight: 700;
+}
+
+.nav-selected{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}

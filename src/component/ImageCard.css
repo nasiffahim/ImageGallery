@@ -1,0 +1,39 @@
+.image-card{
+    position: relative;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 5%;
+}
+
+.image-selector{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 5%;
+    visibility: hidden;
+}
+
+.image-selector:checked{
+    visibility: visible;
+}
+
+.image-card:hover{
+    .image-selector{
+        visibility: visible;
+    }
+    filter: brightness(50%);
+}
+.image-card>img{
+    width: 100%;
+    min-width: 3rem;
+    border-radius: 5%;
+    object-fit: contain;
+    display: block;
+}
+
+.image-card:first-child {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+

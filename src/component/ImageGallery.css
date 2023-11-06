@@ -1,0 +1,8 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); 
+    gap: 1rem;
+    padding-top: .5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
